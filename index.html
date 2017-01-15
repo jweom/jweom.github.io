@@ -1,62 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Lily Eom, MBA candidate</title>
+  <title>Lily's Profile Page</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="http://use.fontawesome.com/f9001c39ac.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Serif|Pacifico" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="wrapper">
-    <h1>Lily Eom</h1>
-    <p>
-      <img src="IMG_0096 copy.jpeg">
-    </p>
-    <h2>MBA candidate</h2>
-    <h3>Evanston, IL</h3>
-    <div>
-      <h4 id="connect">Connect With Me</h4>
-      <ul>
-        <li><a href="mailto:lily.eom@kellogg.northwestern.edu">Email</a></li>
-        <li><a href="https://www.linkedin.com/in/lilyeom">LinkedIn</a></li>
-        <li><a href="https://www.facebook.com/lilyeom">Facebook</a></li>
-      </ul>
-    </div>
-    <div>
-      <h4>Summary</h4>
-      <p>
-        Lily studied at Dartmouth, where she double majored in Economics and Asian and Middle Eastern Studies.
-        She moved on to become a management consultant at Bain & Company.
-        After 3 years of consulting in Seoul, she decided it was time to move on and move to Hong Kong to start a new job at Hotels.com as a search engine marketer.
-        She now lives in Evanston pursuing her MBA degree at Kellogg School of Management.
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Home</a>
+      </div>
 
-      </p>
-    </div>
-    <div>
-      <h4>Experience</h4>
-      <div>
-        <h5>Senior SEM Specialist, Hotels.com (Expedia Inc) Asia Pacific</h5>
-        <p>Managed search engine marketing campaigns for Hotels.com </p>
-      </div>
-      <div>
-        <h5>Senior Associate Consultant, Bain & Company Seoul</h5>
-        <p> Advised clients on strategy</p>
-      </div>
-    </div>
-    <div>
-      <h4 class="skills-and-hobbies">Skills</h4>
-      <ul>
-        <li>Management consulting</li>
-        <li>Digital marketing</li>
-      </ul>
-    </div>
-    <div>
-      <h4 class="skills-and-hobbies">Hobbies</h4>
-      <ul>
-        <li>Eating</li>
-        <li>Traveling</li>
-      </ul>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="resume.html"> About Me <span class="sr-only">(current)</span></a></li>
+          <li><a href="travel.html"> Travel Photos </a></li>
+
+        </ul>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://www.linkedin.com/in/lilyeom"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/lilyeom"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="jumbotron">
+  <div id=jumbotronid>
+  <div class=container>
+      <h1> Lily's world travels </h1>
+      <h2> Sneak peak into world's top travel destinations </h2>
+      <h3><a href="travel.html" class="btn btn-primary">See photos</a></h3>
     </div>
   </div>
+</div>
+  <div class=container>
+  <div class="row">
+        <div class="col-md-4">
+          <h2>From South Korea</h2>
+          <p>But with international experience in the United States and Hong Kong </p>
+        </div>
+        <div class="col-md-4">
+          <h2>An Avid Traveler</h2>
+          <p>Traveled to 24 countries in 6 continents </p>
+        </div>
+        <div class="col-md-4">
+          <h2>Enjoys Leisure Sports</h2>
+          <p> Hobbies include sailing, SCUBA diving, and bouldering </p>
+        </div>
+      </div>
+</div>
 </body>
 </html>
